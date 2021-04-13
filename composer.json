@@ -1,0 +1,22 @@
+{
+  "name": "ckamaury/phphtml",
+  "description": "PHP HTML analyzer.",
+  "type": "library",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Romain FRANCOIS"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "ckamaury/phpmagicfunctions": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CkAmaury\\PhpHtml\\": "src"
+    }
+  }
+}
